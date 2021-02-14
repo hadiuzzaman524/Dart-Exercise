@@ -16,6 +16,8 @@ void main() {
     print(x);
   }).toList();
 
+
+
 // Print first element of the list
   print(number.first);
 
@@ -31,6 +33,7 @@ void main() {
 //number.clear();
   print("After clear the list: ");
   number.map((e) => print(e)).toList();
+
   if (number.isEmpty) {
     print("Empty");
   } else {
