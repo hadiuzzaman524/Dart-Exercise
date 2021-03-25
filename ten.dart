@@ -2,21 +2,20 @@ import 'parent.dart';
 
 class Child extends Parent{
 
-
  @override
   show() {
-    // TODO: implement show
-    return super.show();
+    super.show();
+    print("Show Function in Child Class");
   }
+  
 
 }
 
 
 main(){
-  Parent obj=Parent();
-  obj.show();
 
   Child ch=Child();
   ch.show();
+
 
 }
