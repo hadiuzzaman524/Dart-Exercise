@@ -9,6 +9,7 @@ void main() {
  dynamic y= show1(55, "44444", 4.44);
  print(y.runtimeType);
  show2(44);*/
+
   show(gpa: 3.90, name: "Najmun oishi",roll: 754747);
   show1(4444);
 }
@@ -39,7 +40,6 @@ dynamic show1(int a, String b, double c) {
   print("first: $a");
   print("second: $b");
   print("third: $c");
-
   return c;
 }
 //void
